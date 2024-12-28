@@ -1,0 +1,26 @@
+{
+  "type": "record",
+  "name": "User",
+  "namespace": "com.ake3m.hazelcast.demos",
+  "fields": [
+    {
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    },
+    {
+      "name": "email",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    {
+      "name": "address",
+      "type": "com.ake3m.hazelcast.demos.Address"
+    }
+  ]
+}
