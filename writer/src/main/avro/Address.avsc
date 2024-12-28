@@ -1,0 +1,27 @@
+{
+  "type": "record",
+  "name": "Address",
+  "namespace": "com.ake3m.hazelcast.demos",
+  "fields": [
+    {
+      "name": "street",
+      "type": "string"
+    },
+    {
+      "name": "city",
+      "type": "string"
+    },
+    {
+      "name": "state",
+      "type": "string"
+    },
+    {
+      "name": "zipCode",
+      "type": "string"
+    },
+    {
+      "name": "country",
+      "type": "string"
+    }
+  ]
+}
